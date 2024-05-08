@@ -1,0 +1,504 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a, a:hover, a:focus{text-decoration:none}
+.sticky-prop-bar a{color:black}
+
+body {
+    font-family: "dinregularwebfont" !important;
+}
+#sp-header .navbar-brand > img {
+    display: block;
+    width: 90px;
+}
+#sp-header .navbar-inverse {
+    background-color: #fff;
+    box-shadow: 0 1px 23px #888888;
+    border: none;
+    margin: 0;
+}
+
+#sp-header .navbar-inverse .navbar-nav > li > a {
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    padding: 0 10px;
+    line-height: 6;
+}
+#sp-header .navbar-brand {
+    height: auto;
+    padding: 10px 15px;
+}
+#sp-header .navbar-inverse .navbar-nav > .active > a {
+    background-color: transparent;
+    color: #071c35;
+}
+#sp-header .navbar-inverse .navbar-nav > li > a:hover {
+    color: #071c35;
+}
+.sp-banner {
+    margin: 0;
+}
+.sp-banner img {
+	width : 100%;
+}
+
+.sp-box {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.sp-box img {
+    width: 75px;
+    margin: 0 auto 15px;
+}
+.sp-box p {
+}
+#about,
+#overview,
+#location,
+#flat-tour,
+#construction,
+#views {
+    padding: 3em 0;
+}
+.sp-fea-titl {
+    position: relative;
+    color: #000;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.sp-fea-titl span {
+    color: #071c35;
+}
+.sp-fea-titl:after {
+    background-color: #40413f;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    -webkit-animation: titleBorder 1s;
+    animation: titleBorder 1s;
+}
+.sp-box span {
+    font-size: 35px;
+}
+.sp-halmarks img {
+    width: 50%;
+}
+.sp-overview {
+    text-align: center;
+}
+.sp-overview img {
+    width: 140px;
+    margin: 0 auto 25px;
+}
+.sp-overview h4 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #be9331;
+    margin-bottom: 30px;
+}
+.sp-overview p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #071c35;
+    background: #071c35;
+}
+
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #eeeeee;
+}
+
+.panel-default > .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #212121;
+    background-color: #fafafa;
+    border-color: #eeeeee;
+}
+
+.panel-title {
+    font-size: 14px;
+}
+
+.panel-title > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.more-less {
+    float: right;
+    color: #212121;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #eeeeee;
+    font-size: 15px;
+}
+
+#location h3 {
+    margin: 0 0 20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    color: #071c35;
+}
+.sp-loc-box {
+    border-bottom: 2px solid #071c35;
+    min-height: 18em;
+}
+.sp-loc-box img {
+    margin-bottom: 10px;
+}
+.sp-loc-box p {
+    margin: 0;
+    padding: 6px 0;
+}
+#construction img {
+    margin-bottom: 20px;
+}
+.sp-why {
+}
+.sp-why h4 {
+    line-height: 1.5;
+    font-size: 15px;
+}
+.sp-why .sp-box {
+}
+.sp-why .sp-box img {
+}
+.sp-why .sp-box p {
+}
+.sp-why .sp-box p span {
+}
+.sp-footer {
+    text-align: center;
+    background: #071c35;
+    color: #be9331;
+    padding: 20px 15px;
+    margin-bottom: 4.9%;
+}
+.sp-footer p {
+    margin: 0;
+    font-size: 16px;
+}
+.sp-footer p i {
+}
+.sticky {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background: white;
+    z-index: 9;
+}
+.sticky img {
+    width: 65px !important;
+}
+.sticky .navbar-nav a {
+    line-height: 4.8 !important;
+}
+
+.youtube {
+    height: 410px;
+}
+
+@media screen and (max-width: 420px) {
+    .youtube {
+        height: 180px;
+    }
+}
+.youtube {
+    /* margin: 40px auto 0; */
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+.youtube .play {
+    background: url(../img/download.png) center center no-repeat;
+    background-size: 64px 64px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.youtube .play:hover {
+    opacity: 1;
+}
+.sticky-prop-bar {
+    background-color: #eaecee;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.sticky-prop-bar {
+    background-color: #e4e4e4;
+    position: fixed;
+    bottom: 0;
+    width: 101%;
+    /* height: 100px; */
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000;
+    z-index: 11;
+}
+.single-properties .sticky-prop-bar h4 {
+    margin: 0;
+    color: #232323;
+    line-height: 18px;
+}
+.sticky-prop-bar h4 {
+    color: #232323;
+    font-size: 12px;
+    line-height: 24px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+.single-properties .sticky-prop-bar span.prop-dtl {
+    text-transform: uppercase;
+}
+.sticky-prop-bar span.prop-dtl {
+    text-transform: none;
+    font-size: 22px;
+    line-height: 24px;
+    color: #000000;
+    /* font-family: "Optima"; */
+    text-transform: uppercase;
+}
+.p-0 {
+    padding: 0 !important;
+}
+.single-properties .sticky-prop-bar .get-touch-btn {
+    width: 100%;
+}
+.get-touch-btn {
+    padding: 10px 20px;
+}
+.btn-blue {
+    background-color: #071c35;
+    color: #fff !important;
+    border: 1px solid #071c35;
+    width: 100%;
+    border-radius: 0;
+    margin-top: 7px;
+}
+.sticky-prop-bar h4 a {
+    color: #9d9d9c;
+    font-weight: 600;
+}
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 400px;
+        margin: 30px auto;
+    }
+}
+.modal-body label {
+    font-size: 13px;
+    font-weight: 200;
+}
+.modal-body .form-control {
+    border-radius: 0;
+    border: 1px solid #b5b5b5;
+    height: 45px;
+}
+.modal-body .form-group {
+    margin-bottom: 20px;
+}
+.modal-body .btn {
+    width: 100%;
+    border-radius: 0;
+    padding: 15px 0 11px;
+    font-size: 15px;
+    color: white;
+    background: #be9331;
+}
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+    color: black;
+    font-weight: 900;
+}
+.modal-content {
+    border-radius: 0;
+}
+
+.sp-download{
+    position: fixed;
+    z-index: 9;
+    top: 40%;
+    right: 0;
+}
+.sp-download img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 40px;
+}
+.sp-dwn-brc{}
+.sp-download-brochure{
+    background: #071c35;
+    color: white;
+    font-size: 15px;
+    border-radius: 0;
+    padding: 10px 10px;
+}
+@media screen and (min-width: 350px) and (max-width: 760px) {
+    #sp-header .navbar-brand > img {
+        display: block;
+        width: 55px;
+    }
+    .sticky img {
+        width: 45px !important;
+    }
+    #sp-header .navbar-inverse .navbar-nav > li > a {
+        line-height: 2;
+    }
+    #about,
+    #overview,
+    #location,
+    #flat-tour,
+    #construction,
+    #views {
+        padding: 2em 0;
+    }
+    .sp-fea-titl {
+        font-size: 1.8rem;
+    }
+    .sp-overview img {
+        margin: 25px auto 25px;
+    }
+    #location h3 {
+        margin: 20px 0 20px;
+    }
+    .sp-loc-box {
+        min-height: auto;
+        margin-bottom: 15px;
+    }
+    .sp-loc-box img {
+        margin-bottom: 0;
+    }
+    .sp-loc-box p {
+        text-align: center;
+    }
+    .sticky .navbar-nav a {
+        line-height: 2 !important;
+    }
+    .sticky-prop-bar {
+        background-color: #e4e4e4;
+        position: fixed;
+        bottom: 0;
+        width: 101%;
+        height: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-transform: uppercase;
+        font-size: 12px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #000;
+        z-index: 11;
+    }
+    .sp-footer {
+        text-align: center;
+        background: black;
+        color: #be9331;
+        padding: 20px 15px;
+        margin-bottom: 18%;
+    }.btn-blue{margin:0}
+}
+
+@media screen and (max-width: 350px) {
+    #sp-header .navbar-brand > img {
+        display: block;
+        width: 55px;
+    }
+    .sticky img {
+        width: 45px !important;
+    }
+    #sp-header .navbar-inverse .navbar-nav > li > a {
+        line-height: 2;
+    }
+    #about,
+    #overview,
+    #location,
+    #flat-tour,
+    #construction,
+    #views {
+        padding: 2em 0;
+    }
+    .sp-fea-titl {
+        font-size: 1.8rem;
+    }
+    .sp-overview img {
+        margin: 25px auto 25px;
+    }
+    #location h3 {
+        margin: 20px 0 20px;
+    }
+    .sp-loc-box {
+        min-height: auto;
+        margin-bottom: 15px;
+    }
+    .sp-loc-box img {
+        margin-bottom: 0;
+    }
+    .sp-loc-box p {
+        text-align: center;
+    }
+    .sticky .navbar-nav a {
+        line-height: 2 !important;
+    }
+    .sticky-prop-bar {
+        background-color: #e4e4e4;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-transform: uppercase;
+        font-size: 12px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #000;
+        z-index: 11;
+    }
+    .sp-footer {
+        text-align: center;
+        background: black;
+        color: #be9331;
+        padding: 20px 15px;
+        margin-bottom: 18%;
+    }.btn-blue{margin:0}
+}
