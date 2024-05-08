@@ -17,7 +17,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
         <title>Dream One | Jain Group</title>
         <meta charset="utf-8" />
-		<link rel="shortcut icon" href="img/logo.png">
+		<link rel="shortcut icon" href="img/new_logo.png">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
         <link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick.css" />
@@ -198,7 +198,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.php"><img src="img/logo.png" class="img-responsive" /></a>
+                        <a class="navbar-brand" href="index.php"><img src="img/new_logo.png" class="img-responsive" /></a>
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav navbar-right">
