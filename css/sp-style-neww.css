@@ -10,7 +10,9 @@ body {
 }
 #sp-header .navbar-brand > img {
     display: block;
-    width: 90px;
+    width: 73px;
+    background: unset;
+    margin-top: -8px;
 }
 #sp-header .navbar-inverse {
     background-color: #fff;
@@ -28,7 +30,7 @@ body {
 }
 #sp-header .navbar-brand {
     height: auto;
-    padding: 10px 15px;
+    padding: 4px 15px;
 }
 #sp-header .navbar-inverse .navbar-nav > .active > a {
     background-color: transparent;
@@ -66,7 +68,7 @@ body {
 .sp-fea-titl {
     position: relative;
     color: #000;
-    text-align: left;
+    text-align: center;
     margin-top: 15px;
     margin-bottom: 25px;
     font-size: 2.5rem;
@@ -81,11 +83,14 @@ body {
     bottom: 0;
     content: "";
     height: 2px;
-    left: 0;
-    position: absolute;
+    /* left: 0; */
+    display: block;
+    margin: 0 auto;
+    /* position: absolute; */
     width: 50px;
     -webkit-animation: titleBorder 1s;
     animation: titleBorder 1s;
+    margin-top: 10px;
 }
 .sp-box span {
     font-size: 35px;
@@ -341,7 +346,7 @@ body {
     padding: 15px 0 11px;
     font-size: 15px;
     color: white;
-    background: #be9331;
+    background: #071c35;
 }
 .modal-title {
     margin: 0;
@@ -365,13 +370,21 @@ body {
     height: auto;
     width: 40px;
 }
-.sp-dwn-brc{}
+.sp-dwn-brc {
+    transform: rotate(270deg);
+    position: fixed;
+    z-index: 999;
+    right: -4%;
+    /* left: 88%; */
+    bottom: 58%;
+}
+
 .sp-download-brochure{
     background: #071c35;
     color: white;
     font-size: 15px;
     border-radius: 0;
-    padding: 10px 10px;
+    padding: 15px 27px;
 }
 @media screen and (min-width: 350px) and (max-width: 760px) {
     #sp-header .navbar-brand > img {
@@ -501,4 +514,37 @@ body {
         padding: 20px 15px;
         margin-bottom: 18%;
     }.btn-blue{margin:0}
+}
+
+/* ----Pulseanimation */
+.pulseanimation {
+    animation: pulse-cust 2s infinite;
+}
+
+@-webkit-keyframes pulse-cust {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 #fff;
+    }
+
+    70% {
+        -webkit-box-shadow: 0 0 0 25px rgba(227, 56, 56, 0);
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(227, 56, 56, 0);
+    }
+}
+
+@keyframes pulse-cust {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 #000;
+    }
+
+    70% {
+        -webkit-box-shadow: 0 0 0 25px rgba(227, 56, 56, 0);
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(227, 56, 56, 0);
+    }
 }

@@ -116,10 +116,12 @@
         .project-configuration td {
             padding: 10px;
             border-bottom: 2px solid #ddd;
+            border-right: 2px solid #ddd;
+            border-left: 2px solid #ddd;
         }
 
         .project-configuration th {
-            background-color: #B9872C;
+            background-color: #071c35;
             /* Your accent color */
             color: white;
             /* Text color for headers */
@@ -399,7 +401,7 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RH52BGK" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <div class="social-bar">
+    <div class="social-bar pulseanimation">
         <a href="tel:9681711711" class="linkedin" id="calling_function"><i class="fa fa-phone"></i></a>
         <a href="#" data-toggle="modal" data-target="#myModal2" class="linkedin">
             <div style="transform: rotate(-90deg); height: 80px; margin-right: -60px;">Brochure</div>
@@ -511,31 +513,15 @@
                     <p>DREAM ONE is unparalleled with a combination of rare aesthetics and cutting edge technology.</p>
                     <p>Few residential projects can match the modern architecture of DREAM ONE accentuated with use of advanced technologies to support a lifestyle of the future.</p>
                     <p>Dream One is Kolkata's Most Technologically Advanced Home Offering 3 BHK Penthouses & 4 BHK Ultra Luxurious & Spacious Flats in New Town, Kolkata.</p>
-                    <div class="sp-dwn-brc"><a href="#" data-toggle="modal" data-target="#myModal2" class="sp-download-brochure"> Download Brochure </a></div>
+                    <div class="sp-dwn-brc pulseanimation hidden-xs"><a href="#" data-toggle="modal" data-target="#myModal2" class="sp-download-brochure"> Download Brochure </a></div>
                 </div>
             </div>
             <br />
             <br />
         </div>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="1500">
-            <div class="carousel-inner">
-                <div class="item active">
-                    <a href="img/slider1.jpg" class="example-image-link3" data-lightbox="example-set3" data-title=""> <img src="img/slider1.jpg" class="example-image3 img-responsive" /> </a>
-                </div>
-                <div class="item">
-                    <a href="img/slider2.jpg" class="example-image-link3" data-lightbox="example-set3" data-title=""> <img src="img/slider2.jpg" class="example-image3 img-responsive" /> </a>
-                </div>
-                <div class="item">
-                    <a href="img/slider3.jpg" class="example-image-link3" data-lightbox="example-set3" data-title=""> <img src="img/slider3.jpg" class="example-image3 img-responsive" /> </a>
-                </div>
-            </div>
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev" style="background: none;"> <span class="glyphicon glyphicon-chevron-left"></span> <span class="sr-only">Previous</span> </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next" style="background: none;"> <span class="glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span> </a>
-        </div>
-    </div>
-    <div class="row">
+
         <h2 style="text-align: center;">Project Configuration</h2>
-        <div class="project-configuration flat_type_price">
+        <div class="project-configuration flat_type_price" style="padding-bottom: 24px;">
             <table>
                 <tr>
                     <th>Unit Type</th>
@@ -559,135 +545,24 @@
                 </tr> -->
             </table>
         </div>
-        <div id="location" class="container-fluid">
-            <div class="container">
-                <h1 class="sp-fea-titl">Location <span></span></h1>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.6116087336077!2d88.47496131495997!3d22.593625185171962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02754b73ee77c5%3A0xf04d7c481a374237!2sJain%20Dream%20One!5e0!3m2!1sen!2sin!4v1593024000193!5m2!1sen!2sin" width="100%" height="300" frameborder="0" style="border: 0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                        <a style="color: white;" rel="dofollow" href="https://www.giftdesignacademy.in/">.</a><a style="color: white;" rel="dofollow" href="https://propello.in/">.</a>
-                    </div>
-                    <div class="col-sm-6">
-                        <h3>proximities from</h3>
-                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingOne">
-                                    <h4 class="panel-title">
-                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            <i class="more-less glyphicon glyphicon-plus"></i> shopping and entertainment
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                                    <div class="panel-body">
-                                        <ul>
-                                            <li>City center II:.................5 mins</li>
-                                            <li>Sector V:.................5 mins</li>
-                                            <li>CDLF galleria:.................5 mins</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingTwo">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            <i class="more-less glyphicon glyphicon-plus"></i> education and medical
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                    <div class="panel-body">
-                                        <ul>
-                                            <li>DPS megacity:.................5 mins</li>
-                                            <li>DPS new town:.................5 mins</li>
-                                            <li>Techno India College of technology:.................5 mins</li>
-                                            <li>Proposed IIT:.................7 mins</li>
-                                            <li>TATA medical centre:.................5 mins</li>
-                                            <li>OHIO cardiology centre:.................5 mins</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingThree">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            <i class="more-less glyphicon glyphicon-plus"></i> Hotels
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                    <div class="panel-body">
-                                        <ul>
-                                            <li>Westin (Upcoming):.................0 mins</li>
-                                            <li>ITC Sonar Bangla:.................10 mins</li>
-                                            <li>Hyatt Regency:.................10 mins</li>
-                                            <li>Novotel:.................5 mins</li>
-                                            <li>Swissotel:.................5 mins</li>
-                                            <li>Holiday Inn:.................5 mins</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingFour">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-                                            <i class="more-less glyphicon glyphicon-plus"></i> Other important landmarks
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                                    <div class="panel-body">
-                                        <ul>
-                                            <li>Chingrighata (EM bypass connector):.................10 mins</li>
-                                            <li>Airport:.................5 mins</li>
-                                            <li>Kalakshetra Metro Station:.................1 mins</li>
-                                            <li>Rabindra Tirtha Metro Station:.................3 mins</li>
-                                            <li>TCS SEZ:.................4 mins</li>
-                                            <li>DLF SEZ:.................5 mins</li>
-                                            <li>Mother's Wax Museum:.................5 mins</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="1500">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <a href="img/slider1.jpg" class="example-image-link3" data-lightbox="example-set3" data-title=""> <img src="img/slider1.jpg" class="example-image3 img-responsive" /> </a>
+                </div>
+                <div class="item">
+                    <a href="img/slider2.jpg" class="example-image-link3" data-lightbox="example-set3" data-title=""> <img src="img/slider2.jpg" class="example-image3 img-responsive" /> </a>
+                </div>
+                <div class="item">
+                    <a href="img/slider3.jpg" class="example-image-link3" data-lightbox="example-set3" data-title=""> <img src="img/slider3.jpg" class="example-image3 img-responsive" /> </a>
                 </div>
             </div>
-            <br />
-            <br />
-            <div class="container">
-                <h1 class="sp-fea-titl">EXPERIENCE THE PEAK OF CONVENIENCE AT <span>RAJARHAT</span></h1>
-                <div class="row">
-                    <div class="col-sm-3">
-                        <div class="sp-loc-box">
-                            <img src="img/l1_new.jpg" class="img-responsive" id="desktop_location_1" /> <img src="img/l1_mobile.jpg" class="img-responsive" id="mobile_location_1" />
-                            <p>Rajarhat is one of the most-promising locations</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="sp-loc-box">
-                            <img src="img/l2_new.jpg" class="img-responsive" id="desktop_location_2" /> <img src="img/l2_mobile.jpg" class="img-responsive" id="mobile_location_2" />
-                            <p>Upcoming metro routes and airport connectors</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="sp-loc-box">
-                            <img src="img/l3_new.jpg" class="img-responsive" id="desktop_location_3" /> <img src="img/l3_mobile.jpg" class="img-responsive" id="mobile_location_3" />
-                            <p>High Street of Kolkata’s real estate</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="sp-loc-box">
-                            <img src="img/l4_new.jpg" class="img-responsive" id="desktop_location_4" /> <img src="img/l4_mobile.jpg" class="img-responsive" id="mobile_location_4" />
-                            <p>Well-connected to corporate hubs</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev" style="background: none;"> <span class="glyphicon glyphicon-chevron-left"></span> <span class="sr-only">Previous</span> </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next" style="background: none;"> <span class="glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span> </a>
         </div>
+    </div>
+    <div class="row">
+       
         <!-- <div id="flat-tour" class="container-fluid"> <div class="container"> <h1 class="sp-fea-titl">Sample <span>Flat Tour</span></h1> <iframe src="https://digitour.housing.com/projects/Jain_Dream_One/3BHK" width="100%" height="450"></iframe> </div></div>-->
         <div id="floor-plan" class="container-fluid">
             <div class="container">
@@ -856,9 +731,16 @@
                 <h1 class="sp-fea-titl">view from <span>project</span></h1>
                 <div id="myCarousel2" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="item active"><img src="img/v1_desktop.jpg" class="img-responsive" id="desktop_view_1" /> <img src="img/v1_mobile.jpg" class="img-responsive" id="mobile_view_1" /></div>
-                        <div class="item"><img src="img/v2_desktop.jpg" class="img-responsive" id="desktop_view_2" /> <img src="img/v2_mobile.jpg" class="img-responsive" id="mobile_view_2" /></div>
-                        <div class="item"><img src="img/v3_desktop.jpg" class="img-responsive" id="desktop_view_3" /> <img src="img/v3_mobile.jpg" class="img-responsive" id="mobile_view_3" /></div>
+                        <div class="item active">
+                            <img src="img/v1_desktop.jpg" style="width: 100%" class="img-responsive" id="desktop_view_1" />
+                             <img src="img/v1_mobile.jpg" style="width: 100%" class="img-responsive" id="mobile_view_1" /></div>
+                        <div class="item">
+                            <img src="img/v2_desktop.jpg" style="width: 100%" class="img-responsive" id="desktop_view_2" />
+                            <img src="img/v2_mobile.jpg" style="width: 100%" class="img-responsive" id="mobile_view_2" /></div>
+                        <div class="item">
+                            <img src="img/v3_desktop.jpg" style="width: 100%" class="img-responsive" id="desktop_view_3" />
+                            <img src="img/v3_mobile.jpg" style="width: 100%" class="img-responsive" id="mobile_view_3" />
+                        </div>
                     </div>
                     <a class="left carousel-control" href="#myCarousel2" data-slide="prev" style="background: none;"> <span class="glyphicon glyphicon-chevron-left"></span> <span class="sr-only">Previous</span> </a>
                     <a class="right carousel-control" href="#myCarousel2" data-slide="next" style="background: none;"> <span class="glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span> </a>
@@ -974,6 +856,136 @@
                     </div>
                 </div>
             </div>
+
+            <div id="location" class="container-fluid">
+            <div class="container">
+                <h1 class="sp-fea-titl">Location <span></span></h1>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.6116087336077!2d88.47496131495997!3d22.593625185171962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02754b73ee77c5%3A0xf04d7c481a374237!2sJain%20Dream%20One!5e0!3m2!1sen!2sin!4v1593024000193!5m2!1sen!2sin" width="100%" height="300" frameborder="0" style="border: 0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <a style="color: white;" rel="dofollow" href="https://www.giftdesignacademy.in/">.</a><a style="color: white;" rel="dofollow" href="https://propello.in/">.</a>
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>proximities from</h3>
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <i class="more-less glyphicon glyphicon-plus"></i> shopping and entertainment
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>City center II:.................5 mins</li>
+                                            <li>Sector V:.................5 mins</li>
+                                            <li>CDLF galleria:.................5 mins</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <i class="more-less glyphicon glyphicon-plus"></i> education and medical
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>DPS megacity:.................5 mins</li>
+                                            <li>DPS new town:.................5 mins</li>
+                                            <li>Techno India College of technology:.................5 mins</li>
+                                            <li>Proposed IIT:.................7 mins</li>
+                                            <li>TATA medical centre:.................5 mins</li>
+                                            <li>OHIO cardiology centre:.................5 mins</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <i class="more-less glyphicon glyphicon-plus"></i> Hotels
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>Westin (Upcoming):.................0 mins</li>
+                                            <li>ITC Sonar Bangla:.................10 mins</li>
+                                            <li>Hyatt Regency:.................10 mins</li>
+                                            <li>Novotel:.................5 mins</li>
+                                            <li>Swissotel:.................5 mins</li>
+                                            <li>Holiday Inn:.................5 mins</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingFour">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                            <i class="more-less glyphicon glyphicon-plus"></i> Other important landmarks
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>Chingrighata (EM bypass connector):.................10 mins</li>
+                                            <li>Airport:.................5 mins</li>
+                                            <li>Kalakshetra Metro Station:.................1 mins</li>
+                                            <li>Rabindra Tirtha Metro Station:.................3 mins</li>
+                                            <li>TCS SEZ:.................4 mins</li>
+                                            <li>DLF SEZ:.................5 mins</li>
+                                            <li>Mother's Wax Museum:.................5 mins</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="container">
+                <h1 class="sp-fea-titl">EXPERIENCE THE PEAK OF CONVENIENCE AT <span>RAJARHAT</span></h1>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="sp-loc-box">
+                            <img src="img/l1_new.jpg" class="img-responsive" id="desktop_location_1" /> <img src="img/l1_mobile.jpg" class="img-responsive" id="mobile_location_1" />
+                            <p>Rajarhat is one of the most-promising locations</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="sp-loc-box">
+                            <img src="img/l2_new.jpg" class="img-responsive" id="desktop_location_2" /> <img src="img/l2_mobile.jpg" class="img-responsive" id="mobile_location_2" />
+                            <p>Upcoming metro routes and airport connectors</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="sp-loc-box">
+                            <img src="img/l3_new.jpg" class="img-responsive" id="desktop_location_3" /> <img src="img/l3_mobile.jpg" class="img-responsive" id="mobile_location_3" />
+                            <p>High Street of Kolkata’s real estate</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="sp-loc-box">
+                            <img src="img/l4_new.jpg" class="img-responsive" id="desktop_location_4" /> <img src="img/l4_mobile.jpg" class="img-responsive" id="mobile_location_4" />
+                            <p>Well-connected to corporate hubs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
             <!--<br/> <br/> <div class="container"> <h1 class="sp-fea-titl">THE HALLMARKS OF <span>THE HALLMARKS OF !</span></h1> <div class="row sp-halmarks"> <div class="col-sm-4"> <div class="sp-box"> <img src="img/Picture3.png" class="img-responsive"/> <p> <span>2013</span><br/> Best Residential Project in India mid-segment for Dream Exotica by CNBC Awaaz </p></div></div><div class="col-sm-4"> <div class="sp-box"> <img src="img/cris.png" class="img-responsive"/> <p> <span>2015</span><br/> Only Indian developer with all listed in India’s Top 100 Projects by Realty Plus and CRISIL </p></div></div><div class="col-sm-4"> <div class="sp-box"> <img src="img/Picture5.png" class="img-responsive"/> <p> <span>2018</span><br/> Man of the year award to our Chairman by Times of India </p></div></div><div class="col-sm-4"> <div class="sp-box"> <img src="img/Picture6.png" class="img-responsive"/> <p> <span>2014</span><br/> Best Eco-friendly project in Eastern India for Dream Eco City by 24 MRC </p></div></div><div class="col-sm-4"> <div class="sp-box"> <img src="img/Picture7.png" class="img-responsive"/> <p> <span>2018</span><br/> Best Themed Project in eastern India for Dream World City by Realty Plus </p></div></div><div class="col-sm-4"> <div class="sp-box"> <img src="img/Picture7.png" class="img-responsive"/> <p> <span>2019</span><br/> Best Residential Project in East India (non-metro) for DWC by Realty Plus </p></div></div></div></div>-->
         </div>
         <footer class="new-footer">
@@ -1067,7 +1079,7 @@
                         <span class="prop-dtl footer-area-from"><a href="tel:+919681711711">+91 9681 711 711</a></span>-->
                     </div>
                     <div class="col-12 col-lg-3 d-flex justify-content-end align-items-center">
-                       <a href="javascript:void(0);" class="btn btn-blue get-touch-btn font-14" data-toggle="modal" data-target="#myModal" onClick="”ga(‘send’," ‘event’, ‘register’, ‘click’, ‘button’, ‘1’);”>ENQUIRE NOW</a>
+                       <a href="javascript:void(0);" class="btn btn-blue get-touch-btn font-14 pulseanimation" data-toggle="modal" data-target="#myModal" onClick="”ga(‘send’," ‘event’, ‘register’, ‘click’, ‘button’, ‘1’);”>ENQUIRE NOW</a>
                     </div>
                 </div>
             </div>
@@ -1118,9 +1130,9 @@
                             <div class="form-group">
                                 <input type="hidden" name="source_url" value="https://dreamone.co.in/" />
                                 <input type="hidden" name="thankyouurl" value="https://dreamone.co.in/thankyou.php" />
-                                <!-- <input type="hidden" name="utm_source" value="0" />
+                                <input type="hidden" name="utm_source" value="0" />
                                 <input type="hidden" name="utm_campaign" value="0" />
-                                <input type="hidden" name="utm_medium" value="0" /> -->
+                                <input type="hidden" name="utm_medium" value="0" />
                                 <!--<input type="hidden" value="2nd Agency" name="agency">-->
                                 <button type="submit" class="btn" id="loginBtn" name="loginBtn">SUBMIT</button>
                             </div>
@@ -1284,9 +1296,9 @@
                             <div class="form-group">
                                 <input type="hidden" name="source_url" value="https://dreamone.co.in/" />
                                 <input type="hidden" name="thankyouurl" value="https://dreamone.co.in/thankyoufordownload.php" />
-                                <!-- <input type="hidden" name="utm_source" value="0" />
+                                <input type="hidden" name="utm_source" value="0" />
                                 <input type="hidden" name="utm_campaign" value="0" />
-                                <input type="hidden" name="utm_medium" value="0" /> -->
+                                <input type="hidden" name="utm_medium" value="0" />
                                 <!--<input type="hidden" value="2nd Agency" name="agency">-->
                                 <button type="submit" class="btn" id="loginBtn2" name="loginBtn2">SUBMIT</button>
                             </div>
