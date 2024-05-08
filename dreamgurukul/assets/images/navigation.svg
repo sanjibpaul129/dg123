@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="140" viewBox="0 0 140 140">
+  <defs>
+    <filter id="Ellipse_16" x="0" y="0" width="140" height="140" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_99" data-name="Group 99" transform="translate(-789 -4220)">
+    <g transform="matrix(1, 0, 0, 1, 789, 4220)" filter="url(#Ellipse_16)">
+      <g id="Ellipse_16-2" data-name="Ellipse 16" transform="translate(16 16)" fill="none" stroke="#7a5424" stroke-width="1">
+        <circle cx="52" cy="52" r="52" stroke="none"/>
+        <circle cx="52" cy="52" r="51.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_26" data-name="Group 26" transform="translate(-6.106 -9.804)">
+      <g id="Icon_feather-arrow-right" data-name="Icon feather-arrow-right" transform="translate(853.687 4292.804)">
+        <path id="Path_426" data-name="Path 426" d="M18,7.5l5.207,5.207L18,17.915" transform="translate(-6.581 -7.5)" fill="none" stroke="#7a5424" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Icon_feather-arrow-right-2" data-name="Icon feather-arrow-right" transform="translate(855.106 4292.804)">
+        <path id="Path_426-2" data-name="Path 426" d="M23.207,7.5,18,12.707l5.207,5.207" transform="translate(-18 -7.5)" fill="none" stroke="#7a5424" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
